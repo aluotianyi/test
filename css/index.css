@@ -18,3 +18,27 @@ html,body {
     color:greenyellow;
     z-index: 999;
 }
+.menu-box{
+    position: fixed;
+    right:70px;
+    top:50%;
+    z-index:999;
+}
+.menu-box ul{
+    list-style: none;
+}
+.menu-box ul li a{
+    margin:10px 0px;
+    display: block;
+    text-decoration: none;
+    width:14px;
+    height:14px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    transition: 0.5s all;
+}
+.menu-box ul li a:hover{
+    transform: scale(1.1,1.1);
+}

@@ -13,6 +13,13 @@
 </head>
 <body >
 <canvas id="canvas"></canvas>
+<div class="menu-box">
+    <ul id="fullpageMenu">
+        <li date-menuanchor='page1'><a href="#page1"></a></li>
+        <li date-menuanchor='page2'><a href="#page2"></a></li>
+        <li date-menuanchor='page3'><a href="#page3"></a></li>
+    </ul>
+</div>
 <div id="container">
     <div class="section">
        <div class="container-box">
@@ -32,7 +39,8 @@
 </div>
 <script>
     $('#container').fullpage({
-
+      anchors:['page1','page2','page3','page4'],
+      menu:"#fullpageMenu"
     });
 </script>
 <script src="./js/index.js"></script>
