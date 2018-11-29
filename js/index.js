@@ -10,7 +10,7 @@ function starObj(){
   this.speedx=[];
   this.speedy=[];
   this.getHeight=function () {
-    var height = Math.random() * h+window.innerHeight;
+    var height = Math.random() * h+100;
     return height;
   }
   this.getwidth=function () {
@@ -50,4 +50,4 @@ star.starInt();
 star.move()
 setInterval(()=>{
   star.move()
-},10);
+},20);
