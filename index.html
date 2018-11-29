@@ -6,14 +6,35 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jq.js"></script>
+    <script src="./js/jquery.fullPage.min.js"></script>
 </head>
-<body>
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
-<div id='title'>
-    <span>可曾仰望星空？</span>
+<body >
+<canvas id="canvas"></canvas>
+<div id="container">
+    <div class="section">
+       <div class="container-box">
+
+       </div>
+    </div>
+    <div class="section">
+        <div class="container-box">
+
+        </div>
+    </div>
+    <div class="section">
+        <div class="container-box">
+
+        </div>
+    </div>
 </div>
+<script>
+    $('#container').fullpage({
+
+    });
+</script>
+<script src="./js/index.js"></script>
 </body>
 </html>
