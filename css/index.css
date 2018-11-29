@@ -46,6 +46,8 @@ html,body {
     display:block;
     height:300px;
     width:300px;
+    line-height: 300px;
+    text-align: center;
 }
 .side1{
     background:#41C3AC;
