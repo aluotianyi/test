@@ -48,6 +48,9 @@ html,body {
     transform-style:preserve-3d;
     -webkit-transform-style:preserve-3d;
     transition:2s all;
+    -moz-animation:rotate infinite 5s linear;
+    -webkit-animation: rotate infinite 5s linear;
+    -o-animation: rotate infinite 5s linear;
     animation: rotate infinite 5s linear;
 }
 @keyframes rotate {
