@@ -48,6 +48,6 @@ function starObj(){
 var star=new starObj();
 star.starInt();
 star.move()
-setInterval(()=>{
+setInterval(function () {
   star.move()
 },20);
